@@ -1,0 +1,15 @@
+[cpanel]
+url = https://your-cpanel-server.com:2083
+user = your_cpanel_username
+api_token = your_cpanel_api_token
+
+[dns]
+domain = example.org
+record_name = dynamic.example.org
+ttl = 300
+
+[local]
+ip_file = current_ip.txt
+
+[ip_service]
+provider_url = https://api.ipify.org
